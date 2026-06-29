@@ -1,28 +1,13 @@
 # network-troubleshooting
-│
+
+
 ├── README.md
-│
 ├── av/
-│   ├── hdmi-no-audio.md
-│   ├── hdmi-balun-intermittent-video.md
-│
 ├── networking/
-│   ├── pentair-network-outage.md
-│   ├── subnet-conflict-192-168-1-1.md
-│   ├── unifi-ap-adoption-failure.md
-│
 ├── fiber/
-│   ├── contaminated-lc-connector.md
-│
 ├── systems/
-│   ├── hp-omen-no-display.md
-│
-└── templates/
-    └── troubleshooting-template.md
 
-Experiences
-
-# Network Troubleshooting
+## Experiences:
 
 A collection of real-world troubleshooting cases encountered while working with networking, structured cabling, AV systems, fiber optics, surveillance, and homelab environments.
 
