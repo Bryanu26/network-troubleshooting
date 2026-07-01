@@ -156,12 +156,6 @@ Both iPads booted normally afterward.
 Failed ZoneDirector controller.
 APs needed to be migrated from ZoneDirector firmware to Unleashed.
 Two APs had not actually been factory reset because the reset procedure wasn't completed correctly.
-What I Learned
-Don't assume a factory reset actually happened verify it.
-Always verify your own network first (ipconfig, switch VLAN, Internet connectivity, AP reachability).
-Ping the device before troubleshooting the application.
-If you're working with an unfamiliar platform, understand the architecture before making changes.
-One correctly configured Unleashed AP becomes the Master, and the rest of the APs can join after being reset.
 
 *Lessons Learned
 Never assume a factory reset was successful. Always verify it.
@@ -345,12 +339,6 @@ Después de reiniciarlos ambos arrancaron normalmente y volvieron a funcionar.
 Falló el controlador ZoneDirector.
 Fue necesario migrar los APs a Unleashed.
 Dos access points nunca habían sido reseteados correctamente porque el procedimiento de factory reset no se había completado.
-Lo que aprendí
-No asumir que un factory reset realmente ocurrió; siempre verificarlo.
-Confirmar primero mi propia conectividad (ipconfig, switch, Internet y ping al AP) antes de asumir que el problema está en el equipo.
-Si un problema es completamente nuevo para mí, primero entender la arquitectura antes de empezar a cambiar cosas.
-En una red Unleashed basta con que un AP se convierta en el Master; los demás pueden unirse después del factory reset.
-Siempre hacer una verificación completa del sistema antes de cerrar el trabajo, porque todavía pueden aparecer problemas secundarios, como pasó con los iPads
 
 *Lo que aprendí
 No asumir que un factory reset realmente se completó; siempre verificarlo.
